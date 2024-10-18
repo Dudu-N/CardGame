@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "7lq6yKIilbE=",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\PracticeCode\\CardGame\\CardGame.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Duduzile.Nhlapo\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\Duduzile.Nhlapo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Duduzile.Nhlapo\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Duduzile.Nhlapo\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Duduzile.Nhlapo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
