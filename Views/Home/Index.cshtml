@@ -1,0 +1,34 @@
+﻿@model IEnumerable<PlayerViewModel>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">CardGame</h1>
+</div>
+
+<div class="grid text-center" style="margin-top: 10px">
+    <div class="row">
+    @foreach (var player in Model)
+    {
+        <div class="col" style="margin-top: 5px">
+            <h2>Player @player.Id</h2>
+            @foreach (var card in player.Cards)
+            {
+                 <div class="card" style="margin-top: 5px">
+                    <div class="card-body">
+                        <p>Suit : @card.Suit</p>
+                        <p>Value : @card.FaceValue</p>
+                    </div>
+                </div>
+            }
+            <h3 style="margin-top: 5px">Score: @player.Score</h3>
+        </div>
+    }
+    </div>
+</div>
+
+<h2 style="margin-top: 10px">
+    The winner is Player @Model.First(x => x.IsWinner).Id!
+</h2>
